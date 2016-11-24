@@ -1,0 +1,380 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #fff;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+@media screen and (min-width: 320px) and (max-width: 720px) { 
+	header {
+		margin: 0 20px;
+	}
+	.logo h1 {
+		font-family: "Bree Serif";
+		font-size: 22px;
+		font-weight: 400;
+		color: black;
+		text-transform: uppercase;
+	}
+	span.green {
+		color: #53a665;
+	}
+	ul.menu-720 {
+		display: none;
+	}
+	
+	.container {
+		width: 100%;
+		padding: 0 20px;
+		background-image: url(../img/color-fill-3-copy.png);
+		background-repeat: repeat;
+	}
+	nav {
+		background-image: url(../img/color-fill-3-copy.png);
+	}
+	ul.menu {
+		list-style: none;
+	}
+	ul.menu li a:hover {
+		color: #53a665;
+		border-bottom: 3px solid #53a665;
+	}
+	ul.menu li a {
+		border-bottom: 3px solid black;
+		display: block;
+		text-shadow: 0 1px 0 white;
+		font-family: "Bree Serif";
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 34px;
+		color: #333;
+		text-transform: uppercase;
+	}
+	.video {
+		margin-top: 22px;
+		width: 100%;
+	}
+	.video img {
+		width: 100%;
+	}
+	p {
+		background-color: #fff;
+	}
+	p.info-one {
+		margin-top: 14px;
+		width: 95.7%;
+
+		background-color: transparent;
+
+		color: black;
+		font-family: "Bree Serif";
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 5%:	
+	}
+	p.info-one .white {
+		background-color: #fff;
+	}
+	p.info-two {
+		width: 98.57%;
+		margin-top: 28px;
+		width: 100%;
+
+		font-family: "Open Sans";
+		font-weight: 400;
+		color: black;
+		font-size: 16px;
+		line-height: 24px;
+	}
+	p.info-two a {
+		color: #53a665;
+		font-size: 14px;
+		line-height: 21px;
+		text-decoration: underline;
+	}
+	.info-third {
+		width: 97.14%;
+		margin-top: 32px;
+		position: relative;
+
+	}
+	.info-third p.text-third {
+		width: 100%;
+
+		color: #333;
+		font-family: "Open Sans";
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 21px;
+	}
+	.info-third button {
+		padding: 0 3%;
+		position: absolute;
+		right: -3%;
+		top: 80%;
+
+		background-color: #53a665;
+
+		color: white;
+		font-family: "Open Sans";
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 24px;
+	}
+	ul.section {
+		padding-top: 5%;
+	}
+	.section li {
+		position: relative;
+	}
+	.section li img {
+		margin: 0 auto;
+		width: 10%;
+		display: block;
+
+	}
+	.section li p {
+		background-color: transparent;
+		text-align: center;
+	}
+	.section li .name {
+		text-shadow: 0 1px 0 white;
+		font-family: "Bree Serif";
+		font-size: 21px;
+		font-weight: 400;
+		line-height: 21px;
+	}
+	.section li .description {
+		text-shadow: 0 1px 0 white;
+		color: #333;
+		font-family: "Open Sans";
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 21px;
+	}
+	.section button {
+		margin: 5% auto;
+		padding:0 3%;
+			
+		display: block;
+		background-color: #53a665;
+		color: white;
+		font-family: "Open Sans";
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 24px;
+	}
+	ul.section li:nth-child(3) {
+		padding-bottom: 100px;
+		border-bottom: 1px solid #ccc;
+	}
+	footer {
+		width: 100%;
+	}
+	footer img {
+		margin: 5% auto 0;
+		width: 34.2%;
+		display: block;
+	}
+}
+@media screen and (min-width: 721px) and (max-width: 940px) {
+	body {
+		background-image: url(../img/bg-720-two.png);
+		background-position: 0 -60%;
+		
+	}
+	header {
+		background-color: #fff;
+	}
+	.logo h1 {
+		font-family: "Bree Serif";
+		font-size: 22px;
+		font-weight: 400;
+		color: black;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	span.green {
+		color: #53a665;
+	}
+	.menu-720 {
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.menu-720 li {
+		display: inline-block;
+		position: relative;
+	}
+	.menu-720 li a {
+		display: block;
+		
+		font-family: "Bree Serif";
+		font-size: 16px;
+		font-weight: 400;
+		color: #333;
+		text-transform: uppercase;
+	}
+	.menu-720 li:after {
+		content: "";
+		display: none;
+		position: absolute;
+		right: 15px;
+		
+		border: 5px solid;
+		border-color: #53a665 transparent transparent transparent;
+	}
+	.menu-720 li:nth-child(3)::after {
+		bottom: -10px;
+		right: 40px;
+	}
+	.menu-720 li:last-child::after {
+		bottom: -10px;
+		right: 30px;
+	}
+	.menu-720 li:hover a {
+		color: #53a665;
+	}
+	.menu-720 li:hover::after {
+		display: block;
+	}
+	.container {
+		margin: 0 auto;
+		padding-top: 4.5%;
+		position: relative;
+		width: 64.16%;
+	}
+	.menu {
+		display: none;
+	}
+	.video {
+		width: 100%;
+	}
+	.video img {
+		width: 100%;
+	}
+	p {
+		margin-top: 3%;
+		background-color: #fff;
+	}
+	p.info-one {
+		width: 86.2%;
+		background-color: transparent;
+		
+		color: #5a9e61;
+		font-family: "Bree Serif";
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 28px;
+	}
+	p.info-one .white {
+		background-color: #fff;
+	}
+	p.info-two {
+		width: 442px;
+		height: 65px;
+		color: transparent;
+		font-family: "Open Sans";
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+		color: black;
+	}
+	p.info-two a {
+		color: #53a665;
+		font-size: 14px;
+		line-height: 21px;
+		text-decoration: underline;
+	}
+	.info-third {
+		width: 97.14%;
+		margin-top: 32px;
+		position: relative;
+
+	}
+	.info-third p.text-third {
+		width: 100%;
+
+		color: #333;
+		font-family: "Open Sans";
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 21px;
+	}
+	.info-third button {
+		padding: 0 3%;
+		position: absolute;
+		right: -3%;
+		top: 80%;
+
+		background-color: #53a665;
+
+		color: white;
+		font-family: "Open Sans";
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 24px;
+	}
+	ul.section {
+		text-align: center
+	}
+	.section li {
+		width: 87.66%;
+		margin-top: 10%;
+		
+		display: inline-block;
+		position: relative;
+	}
+	.section li img {
+		margin: 0 auto;
+		width: 10%;
+		display: block;
+
+	}
+	.section li p {
+		background-color: transparent;
+		text-align: center;
+	}
+	.section li .name {
+		text-shadow: 0 1px 0 white;
+		font-family: "Bree Serif";
+		font-size: 21px;
+		font-weight: 400;
+		line-height: 21px;
+	}
+	.section li .description {
+		text-shadow: 0 1px 0 white;
+		color: #333;
+		font-family: "Open Sans";
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 21px;
+	}
+	.section button {
+		margin-top: 5%;
+		padding:0 3%;
+		background-color: #53a665;
+
+		color: white;
+		font-family: "Open Sans";
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 24px;
+	}
+	ul.section li:nth-child(3) {
+		padding-bottom: 100px;
+		border-bottom: 1px solid #ccc;
+	}
+	footer {
+		width: 100%;
+	}
+	footer img {
+		margin: 5% auto;
+		width: 34.2%;
+	}
+}
