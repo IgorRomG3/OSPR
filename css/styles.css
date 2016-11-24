@@ -183,6 +183,9 @@ ul {
 		width: 34.2%;
 		display: block;
 	}
+	.copyright {
+		display: none;
+	}
 }
 @media screen and (min-width: 721px) and (max-width: 940px) {
 	body {
@@ -225,18 +228,11 @@ ul {
 		content: "";
 		display: none;
 		position: absolute;
-		right: 15px;
+		bottom: -40%;
+		right: 50%;
 		
 		border: 5px solid;
 		border-color: #53a665 transparent transparent transparent;
-	}
-	.menu-720 li:nth-child(3)::after {
-		bottom: -10px;
-		right: 40px;
-	}
-	.menu-720 li:last-child::after {
-		bottom: -10px;
-		right: 30px;
 	}
 	.menu-720 li:hover a {
 		color: #53a665;
@@ -254,6 +250,7 @@ ul {
 		display: none;
 	}
 	.video {
+		margin-top: 5%;
 		width: 100%;
 	}
 	.video img {
@@ -377,5 +374,214 @@ ul {
 	footer img {
 		margin: 5% auto;
 		width: 34.2%;
+	}
+	.copyright {
+		display: none;
+	}
+}
+@media screen and (min-width: 941px) {
+	body {
+		background-image: url(../img/bg-720-two.png);
+		background-position: 0 11%;
+		
+	}
+	header {
+		background-color: #fff;
+	}
+	.logo h1 {
+		margin-left: 11.5%;
+		float: left;
+		
+		font-family: "Bree Serif";
+		font-size: 1.875em;
+		font-weight: 400;
+		color: black;
+		text-transform: uppercase;
+	}
+	span.green {
+		color: #53a665;
+	}
+	.clearfix {
+		clear: both;
+	}
+	.menu-720 {
+		margin-right: 11.5%;
+		float: right;
+		
+		margin-bottom: 10px;
+	}
+	.menu-720 li {
+		display: inline-block;
+		position: relative;
+	}
+	.menu-720 li a {
+	display: block;
+		
+	font-family: "Bree Serif";
+	font-size: 1em;
+	font-weight: 400;
+	color: #333;
+	text-transform: uppercase;
+	}
+	.menu-720 li:after {
+		content: "";
+		display: none;
+		position: absolute;
+		bottom: -40%;
+		right: 40%;
+		
+		border: 5px solid;
+		border-color: #53a665 transparent transparent transparent;
+	}
+	.menu-720 li:hover a {
+		color: #53a665;
+	}
+	.menu-720 li:hover::after {
+		display: block;
+	}
+	.container {
+		margin: 0 11.5%;
+		padding-top: 4.5%;
+		position: relative;
+	}
+	.menu {
+		display: none;
+	}
+	.video {
+		margin-top: 10%;
+		width: 49.15%;
+		float: right;
+	}
+	.video img {
+		width: 100%;
+	}
+	p {
+		margin-top: 3%;
+		background-color: #fff;
+	}
+	p.info-one {
+		width: 39%;
+		background-color: transparent;
+		
+		color: #5a9e61;
+		font-family: "Bree Serif";
+		font-size: 1.5em;
+		font-weight: 400;
+		line-height: 28px;
+	}
+	p.info-one .white {
+		background-color: #fff;
+	}
+	p.info-two {
+		width: 39.47%;
+		color: transparent;
+		font-family: "Open Sans";
+		font-size: 1em;
+		font-weight: 400;
+		line-height: 24px;
+		color: black;
+	}
+	p.info-two a {
+		color: #53a665;
+		font-size: 0.875em;
+		line-height: 21px;
+		text-decoration: underline;
+	}
+	.info-third {
+		width: 36.28%;
+		margin-top: 32px;
+		position: relative;
+
+	}
+	.info-third p.text-third {
+		width: 100%;
+
+		color: #333;
+		font-family: "Open Sans";
+		font-size: 1em;
+		font-weight: 400;
+		line-height: 21px;
+	}
+	.info-third button {
+		padding: 0 3%;
+		position: absolute;
+		right: -3%;
+		top: 80%;
+
+		background-color: #53a665;
+
+		color: white;
+		font-family: "Open Sans";
+		font-size: 0.875em;
+		font-weight: 400;
+		line-height: 24px;
+	}
+	ul.section {
+		width: 100%;
+		margin: 5% auto 0;
+		padding-bottom: 5%;
+		text-align: center;
+		
+		border-bottom: 1px solid #ccc;
+	}
+	.section li {
+		width: 31.4%;
+		
+		display: inline-block;
+	}
+	.section li img {
+		margin: 0 auto;
+		width: 8.13%;
+		display: block;
+
+	}
+	.section li p {
+		background-color: transparent;
+	}
+	.section li .name {
+		margin-left: 15%;
+		width: 70.81%;
+		text-shadow: 0 1px 0 white;
+		font-family: "Bree Serif";
+		font-size: 1.5em;
+		font-weight: 400;
+		line-height: 21px;
+		color: #333;
+	}
+	.section li .description {
+		text-shadow: 0 1px 0 white;
+		color: #333;
+		font-family: "Open Sans";
+		font-size: 0.875em;
+		font-weight: 400;
+		line-height: 21px;
+	}
+	.section button {
+		margin-top: 5%;
+		padding:0 3%;
+		background-color: #53a665;
+
+		color: white;
+		font-family: "Open Sans";
+		font-size: 0.875em;
+		font-weight: 400;
+		line-height: 24px;
+	}
+		footer {
+	}
+	footer img {
+		margin-top: 1%;
+		float: right;
+	}
+	.copyright {
+		margin-top: 1%;
+		float: left;
+		
+		background-color: transparent;
+		text-shadow: 0 1px 0 white;
+		color: grey;
+		font-family: Verdana;
+		font-size: 0.625em;
+		font-weight: 400;
 	}
 }
