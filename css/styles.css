@@ -3,6 +3,7 @@
 	padding: 0;
 }
 body {
+	font: 100%/1.5em "Bree Serif","Open Sans";
 	background-color: #fff;
 }
 a {
@@ -13,11 +14,11 @@ ul {
 }
 @media screen and (min-width: 320px) and (max-width: 720px) { 
 	header {
-		margin: 0 20px;
+		margin: 0 6.25%;
 	}
 	.logo h1 {
 		font-family: "Bree Serif";
-		font-size: 22px;
+		font-size: 1.375em;
 		font-weight: 400;
 		color: black;
 		text-transform: uppercase;
@@ -31,7 +32,7 @@ ul {
 	
 	.container {
 		width: 100%;
-		padding: 0 20px;
+		padding: 0 6.25%;
 		background-image: url(../img/color-fill-3-copy.png);
 		background-repeat: repeat;
 	}
@@ -50,7 +51,7 @@ ul {
 		display: block;
 		text-shadow: 0 1px 0 white;
 		font-family: "Bree Serif";
-		font-size: 16px;
+		font-size: 1em;
 		font-weight: 400;
 		line-height: 34px;
 		color: #333;
@@ -74,7 +75,7 @@ ul {
 
 		color: black;
 		font-family: "Bree Serif";
-		font-size: 16px;
+		font-size: 1em;
 		font-weight: 400;
 		line-height: 5%:	
 	}
@@ -89,12 +90,12 @@ ul {
 		font-family: "Open Sans";
 		font-weight: 400;
 		color: black;
-		font-size: 16px;
+		font-size: 1em;
 		line-height: 24px;
 	}
 	p.info-two a {
 		color: #53a665;
-		font-size: 14px;
+		font-size: 0.875em;
 		line-height: 21px;
 		text-decoration: underline;
 	}
@@ -109,7 +110,7 @@ ul {
 
 		color: #333;
 		font-family: "Open Sans";
-		font-size: 16px;
+		font-size: 1em;
 		font-weight: 400;
 		line-height: 21px;
 	}
@@ -123,7 +124,7 @@ ul {
 
 		color: white;
 		font-family: "Open Sans";
-		font-size: 14px;
+		font-size: 0.875em;
 		font-weight: 400;
 		line-height: 24px;
 	}
@@ -146,7 +147,7 @@ ul {
 	.section li .name {
 		text-shadow: 0 1px 0 white;
 		font-family: "Bree Serif";
-		font-size: 21px;
+		font-size: 1.3125em;
 		font-weight: 400;
 		line-height: 21px;
 	}
@@ -154,7 +155,7 @@ ul {
 		text-shadow: 0 1px 0 white;
 		color: #333;
 		font-family: "Open Sans";
-		font-size: 14px;
+		font-size: 0.875em;
 		font-weight: 400;
 		line-height: 21px;
 	}
@@ -166,12 +167,12 @@ ul {
 		background-color: #53a665;
 		color: white;
 		font-family: "Open Sans";
-		font-size: 14px;
+		font-size: 0.875em;
 		font-weight: 400;
 		line-height: 24px;
 	}
 	ul.section li:nth-child(3) {
-		padding-bottom: 100px;
+		padding-bottom: 10px;
 		border-bottom: 1px solid #ccc;
 	}
 	footer {
@@ -194,7 +195,7 @@ ul {
 	}
 	.logo h1 {
 		font-family: "Bree Serif";
-		font-size: 22px;
+		font-size: 1.375em;
 		font-weight: 400;
 		color: black;
 		text-transform: uppercase;
@@ -215,7 +216,7 @@ ul {
 		display: block;
 		
 		font-family: "Bree Serif";
-		font-size: 16px;
+		font-size: 1em;
 		font-weight: 400;
 		color: #333;
 		text-transform: uppercase;
@@ -268,7 +269,7 @@ ul {
 		
 		color: #5a9e61;
 		font-family: "Bree Serif";
-		font-size: 24px;
+		font-size: 1.5em;
 		font-weight: 400;
 		line-height: 28px;
 	}
@@ -280,14 +281,14 @@ ul {
 		height: 65px;
 		color: transparent;
 		font-family: "Open Sans";
-		font-size: 16px;
+		font-size: 1em;
 		font-weight: 400;
 		line-height: 24px;
 		color: black;
 	}
 	p.info-two a {
 		color: #53a665;
-		font-size: 14px;
+		font-size: 0.875em;
 		line-height: 21px;
 		text-decoration: underline;
 	}
@@ -302,7 +303,7 @@ ul {
 
 		color: #333;
 		font-family: "Open Sans";
-		font-size: 16px;
+		font-size: 1em;
 		font-weight: 400;
 		line-height: 21px;
 	}
@@ -316,7 +317,7 @@ ul {
 
 		color: white;
 		font-family: "Open Sans";
-		font-size: 14px;
+		font-size: 0.875em;
 		font-weight: 400;
 		line-height: 24px;
 	}
@@ -343,7 +344,7 @@ ul {
 	.section li .name {
 		text-shadow: 0 1px 0 white;
 		font-family: "Bree Serif";
-		font-size: 21px;
+		font-size: 1.3125em;
 		font-weight: 400;
 		line-height: 21px;
 	}
@@ -351,7 +352,7 @@ ul {
 		text-shadow: 0 1px 0 white;
 		color: #333;
 		font-family: "Open Sans";
-		font-size: 14px;
+		font-size: 0.875em;
 		font-weight: 400;
 		line-height: 21px;
 	}
@@ -362,12 +363,12 @@ ul {
 
 		color: white;
 		font-family: "Open Sans";
-		font-size: 14px;
+		font-size: 0.875em;
 		font-weight: 400;
 		line-height: 24px;
 	}
 	ul.section li:nth-child(3) {
-		padding-bottom: 100px;
+		padding-bottom: 40px;
 		border-bottom: 1px solid #ccc;
 	}
 	footer {
