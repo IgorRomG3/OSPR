@@ -374,6 +374,7 @@ ul {
 	footer img {
 		margin: 5% auto;
 		width: 34.2%;
+		display: block;
 	}
 	.copyright {
 		display: none;
@@ -448,15 +449,15 @@ ul {
 		display: none;
 	}
 	.video {
-		margin-top: 10%;
 		width: 49.15%;
-		float: right;
+		float:right; 
 	}
 	.video img {
 		width: 100%;
+		display: block;
 	}
 	p {
-		margin-top: 3%;
+		margin-top: 2%;
 		background-color: #fff;
 	}
 	p.info-one {
@@ -474,7 +475,6 @@ ul {
 	}
 	p.info-two {
 		width: 39.47%;
-		color: transparent;
 		font-family: "Open Sans";
 		font-size: 1em;
 		font-weight: 400;
@@ -489,7 +489,6 @@ ul {
 	}
 	.info-third {
 		width: 36.28%;
-		margin-top: 32px;
 		position: relative;
 
 	}
