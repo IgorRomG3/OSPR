@@ -16,7 +16,7 @@ ul {
 	header {
 		margin: 0 25px;
 	}
-	.logo h1 {
+	.logo a {
 		font-family: "Bree Serif";
 		font-size: 1.375em;
 		font-weight: 400;
@@ -199,8 +199,9 @@ ul {
 		height: 95px;
 		background-color: #fff;
 	}
-	.logo h1 {
+	.logo a {
 		padding-top: 22px;
+		display: block;
 		
 		font-family: "Bree Serif";
 		font-size: 1.875em;
@@ -212,15 +213,15 @@ ul {
 	span.green {
 		color: #53a665;
 	}
-	.menu-720 {
+	.menu-720-940 {
 		margin-top: 12px;
 		text-align: center;
 	}
-	.menu-720 li {
+	.menu-720-940 li {
 		display: inline-block;
 		position: relative;
 	}
-	.menu-720 li a {
+	.menu-720-940 li a {
 		display: block;
 		
 		font-family: "Bree Serif";
@@ -229,7 +230,7 @@ ul {
 		color: #333;
 		text-transform: uppercase;
 	}
-	.menu-720 li:after {
+	.menu-720-940 li:after {
 		content: "";
 		display: none;
 		position: absolute;
@@ -239,11 +240,24 @@ ul {
 		border: 5px solid;
 		border-color: #53a665 transparent transparent transparent;
 	}
-	.menu-720 li:hover a {
+	.menu-720-940 li:hover a {
 		color: #53a665;
 	}
-	.menu-720 li:hover::after {
+	.menu-720-940 li:hover::after {
 		display: block;
+	}
+	.menu-720-940 li:first-child a {
+		color: #53a665;
+	}
+	.menu-720-940 li:nth-child(1)::after {
+		content: "";
+		display: block;
+		position: absolute;
+		bottom: -40%;
+		right: 50%;
+		
+		border: 5px solid;
+		border-color: #53a665 transparent transparent transparent;
 	}
 	.container {
 		margin: 0 auto;
@@ -394,7 +408,7 @@ ul {
 		height: 70px;
 		background-color: #fff;
 	}
-	.logo h1 {
+	.logo a {
 		margin: 21px 0 0 140px;
 		float: left;
 		
@@ -410,17 +424,17 @@ ul {
 	.clearfix {
 		clear: both;
 	}
-	.menu-720 {
+	.menu-720-940 {
 		margin: 21px 140px 0 0;
 		float: right;
 		
 		margin-bottom: 10px;
 	}
-	.menu-720 li {
+	.menu-720-940 li {
 		display: inline-block;
 		position: relative;
 	}
-	.menu-720 li a {
+	.menu-720-940 li a {
 		display: block;
 
 		font-family: "Bree Serif";
@@ -429,7 +443,7 @@ ul {
 		color: #333;
 		text-transform: uppercase;
 	}
-	.menu-720 li:after {
+	.menu-720-940 li:after {
 		content: "";
 		display: none;
 		position: absolute;
@@ -439,11 +453,24 @@ ul {
 		border: 5px solid;
 		border-color: #53a665 transparent transparent transparent;
 	}
-	.menu-720 li:hover a {
+	.menu-720-940 li:hover a {
 		color: #53a665;
 	}
-	.menu-720 li:hover::after {
+	.menu-720-940 li:hover::after {
 		display: block;
+	}
+	.menu-720-940 li:first-child a {
+		color: #53a665;
+	}
+	.menu-720-940 li:nth-child(1)::after {
+		content: "";
+		display: block;
+		position: absolute;
+		bottom: -40%;
+		right: 50%;
+		
+		border: 5px solid;
+		border-color: #53a665 transparent transparent transparent;
 	}
 	.container {
 		margin: 0 140px;
